@@ -1,0 +1,35 @@
+body {
+  overflow: hidden;
+}
+
+div {
+  position: relative;
+  margin-left: 35%;
+  width: 30%;
+  margin-top: 100%;
+
+  animation: moveUp 1s ease-in forwards;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 3%;
+}
+
+@keyframes moveUp {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+@keyframes moveDown {
+  from {
+    margin-top: 0%;
+  }
+
+  to {
+    margin-top: 100%;
+  }
+}
