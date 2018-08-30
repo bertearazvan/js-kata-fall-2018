@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#products {
+  display: flex;
+  justify-content: space-around;
+}
+
+#modal_container {
+  width: 50vw;
+  height: 30vh;
+  background-color: gray;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 20px;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+
+#closebutton {
+  cursor: pointer;
+  color: red;
+}
+
+#modal_window {
+  max-width: 80vw;
+}
+
+#products {
+  filter: blur(0px);
+}
+
+.hidden {
+  visibility: hidden;
+}
